@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silent Disco</title>
+    <script src="script.js" defer></script>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        #dance-floor{
+            width: 700px;
+            height: 600px;
+            border: 3px solid #060606;
+            display: flex; 
+            justify-content: space-evenly;
+            align-items: center;
+            position: relative;
+        }
+
+        .panel{
+            width: 250px;
+            height: 450px;
+            border: 3px solid #060606;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 6px;
+        }
+
+        #panel-1{
+            background-color: rgb(242, 70, 127);
+        }
+
+        #panel-2{
+            background-color: #baff18;
+        }
+
+        #dancer{
+            font-size: 3rem;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="dance-floor">
+
+        <div id="panel-1" class="panel"></div>
+        <span id="dancer">💃</span>
+        <div id="panel-2" class="panel"></div>
+
+    </div>
+</body>
+</html>
